@@ -5,8 +5,8 @@ section_href: /contact/
 order: 5
 lede: Our bright, accessible parish hall seats 220 and is available to parishioners and the wider community for receptions, celebrations, meetings and community events.
 description: Rent the St. Columba Parish hall in East York, Toronto: capacity 220, kitchen, stage, accessible; rates for parishioners and non-parishioners, rules, and an inquiry form.
-hero_image: family-celebration
-image: family-celebration
+hero_image: catholic-first-communion
+image: catholic-first-communion
 ---
 <p class="wp-block-paragraph">St. Columba's parish hall sits on the lower level of the church, reached by the east-side accessible entrance and elevator or by the interior stairs from the vestibule. Renovated in 2019, it has a sprung hardwood floor, a stage, a full commercial kitchen and seating for 220 at round tables or 300 in rows. Parish groups use it most weekday evenings, but weekends and daytimes are often available for families and community groups. Baptism and First Communion receptions, wedding receptions, funeral luncheons, milestone birthdays, cultural association gatherings and neighbourhood meetings all find a home here.</p>
 
@@ -59,17 +59,18 @@ image: family-celebration
 </ol>
 
 <h2 class="wp-block-heading">Hall rental inquiry</h2>
-<form class="contact-form" name="hall-rental" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/hall-rentals/?sent=1">
+<form class="contact-form" data-email-form name="hall-rental" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="hall-rental">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Your name <input type="text" name="name" autocomplete="name" required></label><label>Email <input type="email" name="email" autocomplete="email" required></label></div>
   <div class="contact-form__row"><label>Phone <input type="tel" name="phone" autocomplete="tel"></label><label>Preferred date <input type="date" name="date" required></label></div>
   <div class="contact-form__row"><label>Type of event <input type="text" name="event-type" placeholder="e.g. First Communion reception" required></label><label>Expected number of guests <input type="number" name="guests" min="1" max="300"></label></div>
   <label>Anything else we should know <textarea name="message" placeholder="Timing, kitchen or bar needs, whether you are a registered parishioner…"></textarea></label>
-  <button type="submit" class="btn">Send inquiry</button>
-  <p class="contact-form__note">Inquiries go to the parish office. We reply within two business days. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">Inquiries go to the parish office. We reply within two business days.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Thank you.</strong> Your inquiry has been received and the office will be in touch within two business days.</p></div>
+
 
 <h2 class="wp-block-heading">Frequently asked</h2>
 <details class="wp-block-details"><summary>Can we bring our own caterer?</summary><p class="wp-block-paragraph">Yes. Any licensed caterer is welcome, and we can suggest several that know the kitchen. Caterers must be out and the kitchen clean by the end of your booking.</p></details>

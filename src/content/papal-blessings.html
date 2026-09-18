@@ -21,7 +21,7 @@ image: stained-glass-window
 <h2 class="wp-block-heading">Letters of good standing</h2>
 <p class="wp-block-paragraph">Godparents and Confirmation sponsors need a letter from their own parish confirming they are confirmed, practising Catholics who, if married, were married in the Church. If St. Columba is your parish, request the letter below; we ask that you be registered and known to us for at least six months. If you are new, come and introduce yourself to one of the priests after Mass first.</p>
 
-<form class="contact-form" name="certificate-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/papal-blessings/?sent=1">
+<form class="contact-form" data-email-form name="certificate-request" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="certificate-request">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <label>I am requesting <select name="request"><option>Baptism certificate</option><option>Confirmation certificate</option><option>Marriage certificate</option><option>Letter of good standing (godparent / sponsor)</option><option>Pastor's letter for a Papal Blessing</option></select></label>
@@ -29,10 +29,11 @@ image: stained-glass-window
   <div class="contact-form__row"><label>Approximate date of the sacrament <input type="text" name="sacrament_date" placeholder="e.g. June 1998"></label><label>Purpose <input type="text" name="purpose" placeholder="e.g. marriage at St. Anne's, Ottawa"></label></div>
   <div class="contact-form__row"><label>Your name <input type="text" name="name" autocomplete="name" required></label><label>Email or phone <input type="text" name="contact" required></label></div>
   <label>Mailing address, or "I will collect at the office" <textarea name="address"></textarea></label>
-  <button type="submit" class="btn">Send request</button>
-  <p class="contact-form__note">Certificates are issued only to the person named, their parents (for minors) or another parish. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">Certificates are issued only to the person named, their parents (for minors) or another parish.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Thank you.</strong> The office will contact you when your document is ready.</p></div>
+
 
 <h2 class="wp-block-heading">Questions</h2>
 <details class="wp-block-details"><summary>The name on my baptism record is spelled differently from my legal name.</summary><p class="wp-block-paragraph">Registers record the name given at baptism. Bring your birth certificate; we can add a notation and the certificate will show both.</p></details>

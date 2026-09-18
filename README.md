@@ -7,7 +7,7 @@ St. Philip Neri Parish site; this demo has every feature of that site plus more.
 * **Static site** (no build step on Netlify): the repo root is the publish directory.
 * **WordPress-ready**: page content is WordPress core-block markup, so the whole site can be
   imported into a WordPress.com Personal-plan site (`wordpress-export.xml`) and edited by the
-  parish office. See `/site-guide/` on the site.
+  parish office. See `src/content/site-guide.html` for the internal maintenance guide.
 * **Real photos** (Wikimedia Commons, Pexels) with credits at `/credits/`. No AI images.
 
 ## Layout
@@ -37,3 +37,14 @@ python3 src/wxr.py                # regenerate wordpress-export.xml
 
 Edit pages in `src/content/`, never the generated files at the root. Commit the generated
 files too — Netlify publishes the repo as-is.
+
+## Daily TV Mass
+
+`netlify/functions/daily-mass.mjs` resolves the broadcaster's featured Mass on each
+visit (cached for up to 15 minutes). Deploy through Netlify with Functions support;
+a plain static preview keeps the official YouTube uploads playlist and broadcaster
+links. No YouTube API key or daily rebuild is required. Run the resolver tests with
+`node --test tests/daily-mass.test.mjs`.
+
+The site and style guides are internal source documents (`publish: false`), excluded
+from rendered pages, navigation, search, sitemap and WordPress export.

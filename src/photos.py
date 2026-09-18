@@ -82,10 +82,10 @@ def write_credits(manifest: list):
     (ROOT / "src/content/credits.html").write_text(f"""---
 title: Photo Credits
 section: About this site
-description: Attribution for the photographs used on this demo parish website.
-lede: Every photograph on this demo site is a real photo released under a free licence. Replace them with your own parish photos when the site goes live.
+description: Photographers and licences for the images used on this website.
+lede: Photography shared under free-use licences.
 ---
-<p class="wp-block-paragraph">This demonstration site uses photographs shared by their photographers under free licences. Thank you to each of them. When a parish adopts this site, these images are swapped for the parish's own photographs and this page can be removed.</p>
+<p class="wp-block-paragraph">We thank the photographers who share their work under the licences listed below. Stock photographs illustrate parish life; the people pictured are models, not members of the parish staff.</p>
 {body}
 <p class="wp-block-paragraph has-small-font-size">Licence summaries: the <a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash License</a> and <a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels License</a> allow free use without attribution (credit given here anyway); <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA</a> and <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY</a> images require the attribution shown above.</p>
 """, encoding="utf-8")

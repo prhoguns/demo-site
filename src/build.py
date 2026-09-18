@@ -271,12 +271,18 @@ def build():
     bodies = {}
     for f in sorted(CONTENT.glob("*.html")):
         meta, body = read_page(f)
+        if meta.get("publish") == "false":
+            continue
         pages.append(meta)
         bodies[meta["slug"]] = body
 
     tpl = {p.stem: p.read_text(encoding="utf-8") for p in TEMPLATES.glob("*.html")}
     # cache-busting query on the shared assets, from their content hash
     asset_v = {name: hashlib.sha1((ROOT / "assets" / name).read_bytes()).hexdigest()[:8] for name in ("site.css", "site.js")}
+    search_data = [{"t": m["title"], "u": m["path"], "s": m.get("section", ""), "d": m.get("description", "")} for m in pages if m.get("noindex") != "true"]
+    search_js = "(function(){var base=new URL('../',document.currentScript.src);window.PARISH_SEARCH=" + json.dumps(search_data, ensure_ascii=False) + ";window.PARISH_SEARCH.forEach(function(p){p.u=new URL(p.u.replace(/^\\//,'')+'index.html',base).href;});})();"
+    (ROOT / "assets/search-index.js").write_text(search_js, encoding="utf-8")
+    search_v = hashlib.sha1(search_js.encode()).hexdigest()[:8]
     written = []
     for meta in pages:
         body = image_placeholders(events_placeholders(bodies[meta["slug"]]))
@@ -320,6 +326,7 @@ def build():
             "year": str(datetime.date.today().year),
             "css_v": asset_v["site.css"],
             "js_v": asset_v["site.js"],
+            "search_v": search_v,
         }
         out = render(template, ctx)
         dest = ROOT / "index.html" if meta["slug"] == "index" else ROOT / meta["slug"] / "index.html"

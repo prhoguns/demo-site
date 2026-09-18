@@ -20,7 +20,7 @@ image: chalice-paten
 <div class="wp-block-group infobox"><h3 class="wp-block-heading">Sanctuary lamp and memorial candles</h3><p class="wp-block-paragraph">The sanctuary lamp that burns beside the tabernacle may be offered for an intention for one week (suggested offering $25), and the two large candles at the shrine of Our Lady for one month ($40). Intentions are listed in the bulletin.</p></div>
 
 <h2 class="wp-block-heading">Request a Mass intention</h2>
-<form class="contact-form" name="mass-intention" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/mass-intentions/?sent=1">
+<form class="contact-form" data-email-form name="mass-intention" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="mass-intention">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Your name <input type="text" name="name" autocomplete="name" required></label><label>Phone or email <input type="text" name="contact" required></label></div>
@@ -28,10 +28,11 @@ image: chalice-paten
   <fieldset><legend>This intention is for</legend><label class="check"><input type="radio" name="kind" value="deceased" checked> Someone who has died</label><label class="check"><input type="radio" name="kind" value="living"> A living person or special intention</label></fieldset>
   <div class="contact-form__row"><label>Preferred date (optional) <input type="date" name="date"></label><label>Preferred Mass <select name="mass"><option>Any weekday Mass</option><option>Sunday 9:00 AM</option><option>Sunday 11:00 AM</option><option>Sunday 5:00 PM</option><option>Saturday 5:00 PM vigil</option><option>Unannounced (any time)</option></select></label></div>
   <label>Offering <select name="offering"><option>I will pay at the office</option><option>Envelope in the collection</option><option>E-transfer to giving@stcolumbatoronto.ca</option><option>Please waive the offering</option></select></label>
-  <button type="submit" class="btn">Send request</button>
-  <p class="contact-form__note">The office confirms the date by phone or email within two business days. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">The office confirms the date by phone or email within two business days.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Thank you.</strong> Your request has been sent to the parish office, which will confirm the date with you.</p></div>
+
 
 <h2 class="wp-block-heading">Questions</h2>
 <details class="wp-block-details"><summary>Can a Mass be offered for someone who is not Catholic?</summary><p class="wp-block-paragraph">Yes. A Mass may be offered for any person, living or deceased, of any faith or none.</p></details>

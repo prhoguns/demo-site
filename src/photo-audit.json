@@ -1,0 +1,77 @@
+{
+  "reviewed": "2026-09-18",
+  "replacements": {
+    "priest-greeting": "hero-church-interior",
+    "bible-reading-pews": "youth-group-park",
+    "young-adults-pews": "young-adults-guitar",
+    "baptism-font": "catholic-baptism",
+    "baptism-pouring": "catholic-baptism",
+    "baptism-baby-water": "catholic-baptism",
+    "family-celebration": "catholic-first-communion",
+    "candles-rows": "votive-candles-red",
+    "candles-chapel": "votive-candles-red",
+    "stained-glass-triptych": "stained-glass-window",
+    "parish-choir": "catholic-choir",
+    "youth-choir": "catholic-choir",
+    "boys-choir": "catholic-choir",
+    "mass-pews": "cathedral-nave",
+    "mass-congregation": "hero-church-interior",
+    "mass-elevation": "catholic-mass",
+    "church-light-crucifix": "basilica-interior",
+    "holy-communion": "catholic-mass",
+    "altar-servers": "catholic-mass",
+    "wedding-aisle": "catholic-wedding",
+    "wedding-altar": "catholic-wedding",
+    "wedding-vows": "catholic-wedding",
+    "first-communion-girls": "catholic-first-communion",
+    "first-communion-candle": "catholic-first-communion",
+    "first-communion-hands": "catholic-first-communion",
+    "children-blessing": "catholic-first-communion",
+    "mother-child-church": "catholic-first-communion",
+    "children-stained-glass": "stained-glass-window",
+    "rosary-candle": "rosary-hands",
+    "elderly-hands-rosary": "rosary-hands",
+    "bible-study-women": "young-adults-guitar",
+    "senior-laughing": "volunteer-elderly",
+    "stock-church-interior": "hero-church-interior",
+    "associate-portrait": "confessional"
+  },
+  "new_sources": [
+    {
+      "slug": "catholic-baptism",
+      "source": "https://commons.wikimedia.org/wiki/File:Baptism_in_a_Catholic_Church_DSC02749.JPG",
+      "date": "2008-09-30",
+      "description": "Modern Baptism in a Catholic Church",
+      "license": "Public domain"
+    },
+    {
+      "slug": "catholic-choir",
+      "source": "https://commons.wikimedia.org/wiki/File:Student_choir_Saint_Thomas_More_Catholic_Chapel_Ateneo.jpg",
+      "date": "2026-03-03",
+      "description": "Saint Thomas More Catholic Chapel Ateneo de Manila Law School Ground  Rockwell Center, Makati \u201cthe king's good servant, but God's first.\u201d",
+      "license": "CC BY 4.0"
+    },
+    {
+      "slug": "catholic-wedding",
+      "source": "https://commons.wikimedia.org/wiki/File:Wedding_cord_ceremony.jpg",
+      "date": "2014-05-15 20:54:34",
+      "description": "Wedding cord ceremony",
+      "license": "CC BY-SA 2.0"
+    },
+    {
+      "slug": "catholic-mass",
+      "source": "https://commons.wikimedia.org/wiki/File:Mass_at_Lourdes.jpg",
+      "date": "3 September 2006 (original upload date)",
+      "description": "Photograph taken by me on 28 July 2006  Lima 10:04, 3 September 2006 (UTC)",
+      "license": "CC BY-SA 3.0"
+    },
+    {
+      "slug": "catholic-first-communion",
+      "source": "https://commons.wikimedia.org/wiki/File:Holy_Family_Catholic_Church_Artesia_First_Communion_2018_01.jpg",
+      "date": "2018-05-19 11:08:49",
+      "description": "Interior of the Holy Family Catholic Church in Artesia in 2018, during a celebration of First Communion",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "policy": "Catholic religious settings; secular community stock photographs; exclude unverified church traditions, female clergy, and uncertain recent religious imagery."
+}

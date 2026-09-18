@@ -5,8 +5,8 @@ section_href: /contact/
 order: 3
 lede: Registering makes you part of the St. Columba family on paper as well as in the pews. It takes five minutes, and it makes envelopes, tax receipts and sacraments much simpler.
 description: Register your household with St. Columba Parish in East York, Toronto: who can register, what happens after, the online registration form and a printable PDF.
-hero_image: mass-congregation
-image: mass-congregation
+hero_image: hero-church-interior
+image: hero-church-interior
 ---
 <p class="wp-block-paragraph">Whether you have just moved to East York, have been sitting in the same pew for years without ever filling in a form, or are returning to the Church after time away, we would love to have you registered. Registration is not a test and it costs nothing; it simply tells us who you are, how to reach you, and how we can serve your family. About 1,200 households are registered with St. Columba, and we hope yours will be next.</p>
 
@@ -20,7 +20,7 @@ image: mass-congregation
 </ul>
 
 <div class="wp-block-columns are-vertically-aligned-center media-row">
-<div class="wp-block-column media-row__img"><!--img:mother-child-church|A mother holding her child at church--></div>
+<div class="wp-block-column media-row__img"><!--img:catholic-first-communion|First Communion at Holy Family Catholic Church in Artesia--></div>
 <div class="wp-block-column is-vertically-aligned-center">
 <h2 class="wp-block-heading">Who can register</h2>
 <p class="wp-block-paragraph">Anyone who worships regularly at St. Columba may register, whether or not you live within the parish boundaries; in the Archdiocese of Toronto, Catholics may belong to the parish where they actually pray. Households can be a single person, a couple, a family with children, or several generations under one roof. You do not need to be Catholic to register; spouses of other faiths, people in the OCIA process and friends of the parish are all welcome on the roll. Students home for the summer and newcomers to Canada should register too, even if they are not sure how long they will stay.</p>
@@ -39,7 +39,7 @@ image: mass-congregation
 <div class="wp-block-group infobox"><h3 class="wp-block-heading">Already registered? Keep us up to date</h3><p class="wp-block-paragraph">Moved, changed your phone number or email, welcomed a new baby, or lost a family member? Use the same form below and note "update" in the last field, or call the office at 416-555-0142 ext. 20. If you have moved to another parish, let us know so we can close your envelope number and send your final receipt.</p></div>
 
 <h2 class="wp-block-heading">Register online</h2>
-<form class="contact-form" name="parish-registration" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/register/?sent=1">
+<form class="contact-form" data-email-form name="parish-registration" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="parish-registration">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Family name <input type="text" name="family-name" autocomplete="family-name" required></label><label>Phone <input type="tel" name="phone" autocomplete="tel" required></label></div>
@@ -49,10 +49,11 @@ image: mass-congregation
   <label class="check"><input type="checkbox" name="envelopes" value="yes"> Please issue us offertory envelopes</label>
   <label class="check"><input type="checkbox" name="pag" value="yes"> I would like information about Pre-Authorized Giving</label>
   <label>How did you hear about St. Columba? <input type="text" name="referral" placeholder="e.g. neighbour, school, walked past, website"></label>
-  <button type="submit" class="btn">Register</button>
-  <p class="contact-form__note">Your information is used only for parish records and is never shared or sold. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">Your information is used only for parish records and is never shared or sold.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Welcome to St. Columba.</strong> Your registration has been received; look for a letter from Fr. Moreau within two weeks.</p></div>
+
 
 <h2 class="wp-block-heading">Prefer paper?</h2>
 <p class="wp-block-paragraph">Print the registration form, fill it in, and drop it in the collection basket, through the office mail slot, or hand it to any usher. Forms are also in the rack at each entrance of the church.</p>

@@ -16,20 +16,21 @@ image: rosary-hands
 </div>
 
 <h2 class="wp-block-heading">Send a prayer request</h2>
-<form class="contact-form" name="prayer-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/prayer-requests/?sent=1">
+<form class="contact-form" data-email-form name="prayer-request" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="prayer-request">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Your name <input type="text" name="name" autocomplete="name" required></label><label>Email (optional) <input type="email" name="email" autocomplete="email"></label></div>
   <label>Your request <textarea name="message" required placeholder="Please pray for…"></textarea></label>
   <label class="check"><input type="checkbox" name="publish" value="yes"> You may read this intention (first name only) at Mass</label>
   <label class="check"><input type="checkbox" name="visit" value="yes"> I would like a priest or pastoral visitor to contact me</label>
-  <button type="submit" class="btn">Send request</button>
-  <p class="contact-form__note">Requests are read only by the pastor and the prayer chain coordinator. See our <a href="/privacy/">privacy policy</a>. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">Requests are read only by the pastor and the prayer chain coordinator. See our <a href="/privacy/">privacy policy</a>.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Thank you.</strong> Your request has been received and will be prayed for today.</p></div>
+
 
 <div class="wp-block-columns are-vertically-aligned-center media-row media-row--flip">
-  <div class="wp-block-column media-row__img"><!--img:elderly-hands-rosary|An elderly woman's hands holding a rosary--></div>
+  <div class="wp-block-column media-row__img"><!--img:rosary-hands|Hands holding a rosary--></div>
   <div class="wp-block-column is-vertically-aligned-center">
     <h3 class="wp-block-heading">A prayer for the sick</h3>
     <p class="wp-block-paragraph">Lord Jesus, you went about doing good and healing all who were ill. Be near to those we name before you today. Give them strength in weakness, peace in fear, and the company of people who love them. Bless the hands of those who care for them. Let none of them feel alone, and bring them to healing of body and soul. Amen.</p>

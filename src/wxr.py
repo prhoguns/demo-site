@@ -288,6 +288,8 @@ def main():
     pages = []
     for f in sorted(build.CONTENT.glob("*.html")):
         meta, body = build.read_page(f)
+        if meta.get("publish") == "false":
+            continue
         if meta.get("noindex") == "true":
             continue  # the 404 page is a Netlify-only file
         body = build.image_placeholders(build.events_placeholders(body))

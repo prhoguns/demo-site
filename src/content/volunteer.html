@@ -34,7 +34,7 @@ hero_image: food-bank-volunteers
 </ol>
 
 <h2 class="wp-block-heading">Volunteer interest form</h2>
-<form class="contact-form" name="volunteer" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/volunteer/?sent=1">
+<form class="contact-form" data-email-form name="volunteer" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="volunteer">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Your name <input type="text" name="name" autocomplete="name" required></label><label>Email <input type="email" name="email" autocomplete="email" required></label></div>
@@ -51,10 +51,11 @@ hero_image: food-bank-volunteers
   </fieldset>
   <label>Availability (days, times, how often) <input type="text" name="availability" placeholder="e.g. Saturday mornings, once a month"></label>
   <label>Anything else — skills, languages, experience <textarea name="message"></textarea></label>
-  <button type="submit" class="btn">Send</button>
-  <p class="contact-form__note">Your information is used only to connect you with a ministry. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">Your information is used only to connect you with a ministry.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Thank you.</strong> A ministry coordinator will contact you within two weeks.</p></div>
+
 
 <h2 class="wp-block-heading">How volunteers are supported</h2>
 <p class="wp-block-paragraph">Every ministry has a coordinator you can call; expenses (mileage, supplies) are reimbursed; training and screening are free; and the parish says thank you properly — at the volunteer appreciation dinner each June, and at the Mass on the feast of St. Columba where volunteers are blessed. Volunteers who wish to step back for a season simply tell their coordinator; nobody is trapped.</p>

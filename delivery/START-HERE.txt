@@ -1,0 +1,31 @@
+ST. COLUMBA PARISH — UPLOAD PACKAGES
+
+NETLIFY: Drag the website folder into Netlify Drop.
+CLOUDFLARE: In Workers & Pages, create a Pages project with Direct Upload.
+Upload website-netlify-cloudflare.zip (or the website folder).
+LOCAL PREVIEW: Open website/index.html in your browser. Internet access is
+needed for web fonts, video and maps; the pages, images and search are local.
+
+WORDPRESS: Appearance > Themes > Add New > Upload Theme.
+Choose st-columba-wordpress-theme.zip, install it, and activate it.
+Activation adds the bundled pages and selects Home. Existing pages with matching
+slugs are preserved. Use a fresh WordPress site for the complete demonstration.
+All photos and styles are included; no separate XML import is needed.
+Requires permission to upload custom themes (some hosted plans restrict this).
+Pages can be edited under Pages. The homepage is a Custom HTML block.
+
+The website and theme are two formats; WordPress cannot import a static folder
+through the Media Library. Do not upload this whole delivery directory.
+
+Forms open a draft in the visitor's email app, with a review step before sending.
+They do not rely on Netlify Forms or silently store submissions. The contact
+address remains the generic demonstration address. Configure actual parish
+contact details before using the site for real enquiries.
+
+Daily TV Mass uses the broadcaster's updating YouTube playlist. No API key,
+server function or daily site rebuild is required. The playlist also contains
+rosary videos; visitors can choose a Mass from its playlist menu.
+
+Photo attributions and licence links remain on the Photo Credits page.
+The audit and developer setup files are excluded from the public packages.
+Rebuild after source changes: python3 src/build.py --check && python3 src/package.py

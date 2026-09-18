@@ -139,8 +139,8 @@
           "href": "/mass-times/"
         },
         {
-          "label": "Watch Mass Online",
-          "href": "/livestream/"
+          "label": "Daily Readings",
+          "href": "https://readings.livingwithchrist.ca/"
         },
         {
           "label": "Confession Times",
@@ -389,8 +389,8 @@
         "heading": "Stay connected",
         "links": [
           {
-            "label": "Watch Mass online",
-            "href": "/livestream/"
+            "label": "Daily Readings",
+            "href": "https://readings.livingwithchrist.ca/"
           },
           {
             "label": "Sign up for parish emails",

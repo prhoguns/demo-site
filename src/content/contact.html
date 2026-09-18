@@ -41,24 +41,26 @@ image: cathedral-exterior
 </div>
 
 <h2 class="wp-block-heading">Send a message</h2>
-<form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/?sent=1">
+<form class="contact-form" data-email-form name="contact" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="contact">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Your name <input type="text" name="name" autocomplete="name" required></label><label>Email <input type="email" name="email" autocomplete="email" required></label></div>
   <div class="contact-form__row"><label>Phone (optional) <input type="tel" name="phone" autocomplete="tel"></label><label>Subject <select name="subject"><option>General question</option><option>Baptism</option><option>Marriage</option><option>Funeral</option><option>Mass intention</option><option>Certificate request</option><option>Hall rental</option><option>Youth</option><option>Website feedback</option></select></label></div>
   <label>Message <textarea name="message" required></textarea></label>
-  <button type="submit" class="btn">Send message</button>
-  <p class="contact-form__note">We reply within two business days. This form is not monitored outside office hours — for emergencies, phone. On WordPress this is a Form block.</p>
+  <button type="submit" class="btn">Create email</button>
+  <p class="contact-form__note">We reply within two business days. This form is not monitored outside office hours — for emergencies, phone.</p>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
-<div class="contact-form__thanks" hidden><p class="wp-block-paragraph"><strong>Thank you.</strong> Your message has been sent to the parish office.</p></div>
+
 
 <h2 class="wp-block-heading" id="newsletter">Parish emails</h2>
 <p class="wp-block-paragraph">About once a week we send a short email with the bulletin, upcoming events and any schedule changes. You can unsubscribe at any time from the link in each message.</p>
-<form class="contact-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/?sent=1">
+<form class="contact-form" data-email-form name="newsletter" action="mailto:office@stcolumbatoronto.ca" method="get">
   <input type="hidden" name="form-name" value="newsletter">
   <p class="hidden-field"><label>Leave this empty <input name="bot-field"></label></p>
   <div class="contact-form__row"><label>Email <input type="email" name="email" autocomplete="email" required></label><label>First name (optional) <input type="text" name="first_name"></label></div>
-  <button type="submit" class="btn btn--outline">Sign up</button>
+  <button type="submit" class="btn btn--outline">Create email</button>
+<p class="contact-form__delivery">Opens your email app so you can review and send your request.</p>
 </form>
 
 <h2 class="wp-block-heading">Getting here</h2>

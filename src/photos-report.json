@@ -520,190 +520,6 @@
    ]
   ]
  },
- "candles-chapel": {
-  "slug": "candles-chapel",
-  "width": 1600,
-  "height": 2404,
-  "variants": [
-   [
-    480,
-    "candles-chapel-480x721.jpg"
-   ],
-   [
-    768,
-    "candles-chapel-768x1154.jpg"
-   ],
-   [
-    1024,
-    "candles-chapel-1024x1539.jpg"
-   ],
-   [
-    1536,
-    "candles-chapel-1536x2308.jpg"
-   ]
-  ]
- },
- "candles-rows": {
-  "slug": "candles-rows",
-  "width": 1600,
-  "height": 1200,
-  "variants": [
-   [
-    480,
-    "candles-rows-480x360.jpg"
-   ],
-   [
-    768,
-    "candles-rows-768x576.jpg"
-   ],
-   [
-    1024,
-    "candles-rows-1024x768.jpg"
-   ],
-   [
-    1536,
-    "candles-rows-1536x1152.jpg"
-   ]
-  ]
- },
- "stained-glass-triptych": {
-  "slug": "stained-glass-triptych",
-  "width": 1600,
-  "height": 1326,
-  "variants": [
-   [
-    480,
-    "stained-glass-triptych-480x398.jpg"
-   ],
-   [
-    768,
-    "stained-glass-triptych-768x636.jpg"
-   ],
-   [
-    1024,
-    "stained-glass-triptych-1024x849.jpg"
-   ],
-   [
-    1536,
-    "stained-glass-triptych-1536x1273.jpg"
-   ]
-  ]
- },
- "mass-congregation": {
-  "slug": "mass-congregation",
-  "width": 1600,
-  "height": 900,
-  "variants": [
-   [
-    480,
-    "mass-congregation-480x270.jpg"
-   ],
-   [
-    768,
-    "mass-congregation-768x432.jpg"
-   ],
-   [
-    1024,
-    "mass-congregation-1024x576.jpg"
-   ],
-   [
-    1536,
-    "mass-congregation-1536x864.jpg"
-   ]
-  ]
- },
- "mass-pews": {
-  "slug": "mass-pews",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "mass-pews-480x320.jpg"
-   ],
-   [
-    768,
-    "mass-pews-768x512.jpg"
-   ],
-   [
-    1024,
-    "mass-pews-1024x683.jpg"
-   ],
-   [
-    1536,
-    "mass-pews-1536x1024.jpg"
-   ]
-  ]
- },
- "mass-elevation": {
-  "slug": "mass-elevation",
-  "width": 1600,
-  "height": 1280,
-  "variants": [
-   [
-    480,
-    "mass-elevation-480x384.jpg"
-   ],
-   [
-    768,
-    "mass-elevation-768x614.jpg"
-   ],
-   [
-    1024,
-    "mass-elevation-1024x819.jpg"
-   ],
-   [
-    1536,
-    "mass-elevation-1536x1229.jpg"
-   ]
-  ]
- },
- "church-light-crucifix": {
-  "slug": "church-light-crucifix",
-  "width": 1600,
-  "height": 1063,
-  "variants": [
-   [
-    480,
-    "church-light-crucifix-480x319.jpg"
-   ],
-   [
-    768,
-    "church-light-crucifix-768x510.jpg"
-   ],
-   [
-    1024,
-    "church-light-crucifix-1024x680.jpg"
-   ],
-   [
-    1536,
-    "church-light-crucifix-1536x1020.jpg"
-   ]
-  ]
- },
- "holy-communion": {
-  "slug": "holy-communion",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "holy-communion-480x320.jpg"
-   ],
-   [
-    768,
-    "holy-communion-768x512.jpg"
-   ],
-   [
-    1024,
-    "holy-communion-1024x683.jpg"
-   ],
-   [
-    1536,
-    "holy-communion-1536x1024.jpg"
-   ]
-  ]
- },
  "chalice-hands": {
   "slug": "chalice-hands",
   "width": 1600,
@@ -724,29 +540,6 @@
    [
     1536,
     "chalice-hands-1536x1024.jpg"
-   ]
-  ]
- },
- "altar-servers": {
-  "slug": "altar-servers",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "altar-servers-480x320.jpg"
-   ],
-   [
-    768,
-    "altar-servers-768x512.jpg"
-   ],
-   [
-    1024,
-    "altar-servers-1024x683.jpg"
-   ],
-   [
-    1536,
-    "altar-servers-1536x1024.jpg"
    ]
   ]
  },
@@ -793,190 +586,6 @@
    [
     1536,
     "rosary-pew-1536x1024.jpg"
-   ]
-  ]
- },
- "rosary-candle": {
-  "slug": "rosary-candle",
-  "width": 1600,
-  "height": 1600,
-  "variants": [
-   [
-    480,
-    "rosary-candle-480x480.jpg"
-   ],
-   [
-    768,
-    "rosary-candle-768x768.jpg"
-   ],
-   [
-    1024,
-    "rosary-candle-1024x1024.jpg"
-   ],
-   [
-    1536,
-    "rosary-candle-1536x1536.jpg"
-   ]
-  ]
- },
- "elderly-hands-rosary": {
-  "slug": "elderly-hands-rosary",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "elderly-hands-rosary-480x720.jpg"
-   ],
-   [
-    768,
-    "elderly-hands-rosary-768x1152.jpg"
-   ],
-   [
-    1024,
-    "elderly-hands-rosary-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "elderly-hands-rosary-1536x2304.jpg"
-   ]
-  ]
- },
- "baptism-font": {
-  "slug": "baptism-font",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "baptism-font-480x720.jpg"
-   ],
-   [
-    768,
-    "baptism-font-768x1152.jpg"
-   ],
-   [
-    1024,
-    "baptism-font-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "baptism-font-1536x2304.jpg"
-   ]
-  ]
- },
- "baptism-pouring": {
-  "slug": "baptism-pouring",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "baptism-pouring-480x720.jpg"
-   ],
-   [
-    768,
-    "baptism-pouring-768x1152.jpg"
-   ],
-   [
-    1024,
-    "baptism-pouring-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "baptism-pouring-1536x2304.jpg"
-   ]
-  ]
- },
- "baptism-baby-water": {
-  "slug": "baptism-baby-water",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "baptism-baby-water-480x720.jpg"
-   ],
-   [
-    768,
-    "baptism-baby-water-768x1152.jpg"
-   ],
-   [
-    1024,
-    "baptism-baby-water-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "baptism-baby-water-1536x2304.jpg"
-   ]
-  ]
- },
- "parish-choir": {
-  "slug": "parish-choir",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "parish-choir-480x320.jpg"
-   ],
-   [
-    768,
-    "parish-choir-768x512.jpg"
-   ],
-   [
-    1024,
-    "parish-choir-1024x683.jpg"
-   ],
-   [
-    1536,
-    "parish-choir-1536x1024.jpg"
-   ]
-  ]
- },
- "youth-choir": {
-  "slug": "youth-choir",
-  "width": 1600,
-  "height": 1068,
-  "variants": [
-   [
-    480,
-    "youth-choir-480x320.jpg"
-   ],
-   [
-    768,
-    "youth-choir-768x513.jpg"
-   ],
-   [
-    1024,
-    "youth-choir-1024x684.jpg"
-   ],
-   [
-    1536,
-    "youth-choir-1536x1025.jpg"
-   ]
-  ]
- },
- "boys-choir": {
-  "slug": "boys-choir",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "boys-choir-480x720.jpg"
-   ],
-   [
-    768,
-    "boys-choir-768x1152.jpg"
-   ],
-   [
-    1024,
-    "boys-choir-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "boys-choir-1536x2304.jpg"
    ]
   ]
  },
@@ -1118,144 +727,6 @@
    ]
   ]
  },
- "wedding-aisle": {
-  "slug": "wedding-aisle",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "wedding-aisle-480x720.jpg"
-   ],
-   [
-    768,
-    "wedding-aisle-768x1152.jpg"
-   ],
-   [
-    1024,
-    "wedding-aisle-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "wedding-aisle-1536x2304.jpg"
-   ]
-  ]
- },
- "wedding-altar": {
-  "slug": "wedding-altar",
-  "width": 1600,
-  "height": 1433,
-  "variants": [
-   [
-    480,
-    "wedding-altar-480x430.jpg"
-   ],
-   [
-    768,
-    "wedding-altar-768x688.jpg"
-   ],
-   [
-    1024,
-    "wedding-altar-1024x917.jpg"
-   ],
-   [
-    1536,
-    "wedding-altar-1536x1376.jpg"
-   ]
-  ]
- },
- "wedding-vows": {
-  "slug": "wedding-vows",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "wedding-vows-480x720.jpg"
-   ],
-   [
-    768,
-    "wedding-vows-768x1152.jpg"
-   ],
-   [
-    1024,
-    "wedding-vows-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "wedding-vows-1536x2304.jpg"
-   ]
-  ]
- },
- "bible-study-women": {
-  "slug": "bible-study-women",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "bible-study-women-480x720.jpg"
-   ],
-   [
-    768,
-    "bible-study-women-768x1152.jpg"
-   ],
-   [
-    1024,
-    "bible-study-women-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "bible-study-women-1536x2304.jpg"
-   ]
-  ]
- },
- "bible-reading-pews": {
-  "slug": "bible-reading-pews",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "bible-reading-pews-480x320.jpg"
-   ],
-   [
-    768,
-    "bible-reading-pews-768x512.jpg"
-   ],
-   [
-    1024,
-    "bible-reading-pews-1024x683.jpg"
-   ],
-   [
-    1536,
-    "bible-reading-pews-1536x1024.jpg"
-   ]
-  ]
- },
- "young-adults-pews": {
-  "slug": "young-adults-pews",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "young-adults-pews-480x320.jpg"
-   ],
-   [
-    768,
-    "young-adults-pews-768x512.jpg"
-   ],
-   [
-    1024,
-    "young-adults-pews-1024x683.jpg"
-   ],
-   [
-    1536,
-    "young-adults-pews-1536x1024.jpg"
-   ]
-  ]
- },
  "young-adults-guitar": {
   "slug": "young-adults-guitar",
   "width": 1600,
@@ -1279,98 +750,6 @@
    ]
   ]
  },
- "first-communion-girls": {
-  "slug": "first-communion-girls",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "first-communion-girls-480x720.jpg"
-   ],
-   [
-    768,
-    "first-communion-girls-768x1152.jpg"
-   ],
-   [
-    1024,
-    "first-communion-girls-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "first-communion-girls-1536x2304.jpg"
-   ]
-  ]
- },
- "first-communion-candle": {
-  "slug": "first-communion-candle",
-  "width": 1600,
-  "height": 2400,
-  "variants": [
-   [
-    480,
-    "first-communion-candle-480x720.jpg"
-   ],
-   [
-    768,
-    "first-communion-candle-768x1152.jpg"
-   ],
-   [
-    1024,
-    "first-communion-candle-1024x1536.jpg"
-   ],
-   [
-    1536,
-    "first-communion-candle-1536x2304.jpg"
-   ]
-  ]
- },
- "first-communion-hands": {
-  "slug": "first-communion-hands",
-  "width": 1600,
-  "height": 2133,
-  "variants": [
-   [
-    480,
-    "first-communion-hands-480x640.jpg"
-   ],
-   [
-    768,
-    "first-communion-hands-768x1024.jpg"
-   ],
-   [
-    1024,
-    "first-communion-hands-1024x1365.jpg"
-   ],
-   [
-    1536,
-    "first-communion-hands-1536x2048.jpg"
-   ]
-  ]
- },
- "children-blessing": {
-  "slug": "children-blessing",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "children-blessing-480x320.jpg"
-   ],
-   [
-    768,
-    "children-blessing-768x512.jpg"
-   ],
-   [
-    1024,
-    "children-blessing-1024x683.jpg"
-   ],
-   [
-    1536,
-    "children-blessing-1536x1024.jpg"
-   ]
-  ]
- },
  "volunteer-elderly": {
   "slug": "volunteer-elderly",
   "width": 1600,
@@ -1391,29 +770,6 @@
    [
     1536,
     "volunteer-elderly-1536x1024.jpg"
-   ]
-  ]
- },
- "senior-laughing": {
-  "slug": "senior-laughing",
-  "width": 1600,
-  "height": 1067,
-  "variants": [
-   [
-    480,
-    "senior-laughing-480x320.jpg"
-   ],
-   [
-    768,
-    "senior-laughing-768x512.jpg"
-   ],
-   [
-    1024,
-    "senior-laughing-1024x683.jpg"
-   ],
-   [
-    1536,
-    "senior-laughing-1536x1024.jpg"
    ]
   ]
  },
@@ -1555,95 +911,118 @@
    ]
   ]
  },
- "children-stained-glass": {
-  "slug": "children-stained-glass",
+ "catholic-baptism": {
+  "slug": "catholic-baptism",
   "width": 1600,
-  "height": 1063,
+  "height": 1200,
   "variants": [
    [
     480,
-    "children-stained-glass-480x319.jpg"
+    "catholic-baptism-480x360.jpg"
    ],
    [
     768,
-    "children-stained-glass-768x510.jpg"
+    "catholic-baptism-768x576.jpg"
    ],
    [
     1024,
-    "children-stained-glass-1024x680.jpg"
+    "catholic-baptism-1024x768.jpg"
    ],
    [
     1536,
-    "children-stained-glass-1536x1020.jpg"
+    "catholic-baptism-1536x1152.jpg"
    ]
   ]
  },
- "mother-child-church": {
-  "slug": "mother-child-church",
+ "catholic-choir": {
+  "slug": "catholic-choir",
   "width": 1600,
-  "height": 1065,
+  "height": 1568,
   "variants": [
    [
     480,
-    "mother-child-church-480x320.jpg"
+    "catholic-choir-480x470.jpg"
    ],
    [
     768,
-    "mother-child-church-768x511.jpg"
+    "catholic-choir-768x753.jpg"
    ],
    [
     1024,
-    "mother-child-church-1024x682.jpg"
+    "catholic-choir-1024x1004.jpg"
    ],
    [
     1536,
-    "mother-child-church-1536x1022.jpg"
+    "catholic-choir-1536x1505.jpg"
    ]
   ]
  },
- "family-celebration": {
-  "slug": "family-celebration",
+ "catholic-wedding": {
+  "slug": "catholic-wedding",
   "width": 1600,
   "height": 1067,
   "variants": [
    [
     480,
-    "family-celebration-480x320.jpg"
+    "catholic-wedding-480x320.jpg"
    ],
    [
     768,
-    "family-celebration-768x512.jpg"
+    "catholic-wedding-768x512.jpg"
    ],
    [
     1024,
-    "family-celebration-1024x683.jpg"
+    "catholic-wedding-1024x683.jpg"
    ],
    [
     1536,
-    "family-celebration-1536x1024.jpg"
+    "catholic-wedding-1536x1024.jpg"
    ]
   ]
  },
- "priest-greeting": {
-  "slug": "priest-greeting",
-  "width": 1600,
-  "height": 1067,
+ "catholic-mass": {
+  "slug": "catholic-mass",
+  "width": 1543,
+  "height": 1102,
   "variants": [
    [
     480,
-    "priest-greeting-480x320.jpg"
+    "catholic-mass-480x343.jpg"
    ],
    [
     768,
-    "priest-greeting-768x512.jpg"
+    "catholic-mass-768x549.jpg"
    ],
    [
     1024,
-    "priest-greeting-1024x683.jpg"
+    "catholic-mass-1024x731.jpg"
    ],
    [
     1536,
-    "priest-greeting-1536x1024.jpg"
+    "catholic-mass-1536x1097.jpg"
+   ]
+  ]
+ },
+ "catholic-first-communion": {
+  "slug": "catholic-first-communion",
+  "width": 1600,
+  "height": 1200,
+  "variants": [
+   [
+    480,
+    "catholic-first-communion-480x360.jpg"
+   ],
+   [
+    768,
+    "catholic-first-communion-768x576.jpg"
+   ],
+   [
+    1024,
+    "catholic-first-communion-1024x768.jpg"
+   ],
+   [
+    1536,
+    "catholic-first-communion-1536x1152.jpg"
    ]
   ]
  }
