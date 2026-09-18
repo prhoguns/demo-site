@@ -1,0 +1,436 @@
+{
+  "name": "St. Columba Parish",
+  "short_name": "St. Columba",
+  "tagline": "A Catholic community in the heart of Toronto",
+  "city": "Toronto, Ontario",
+  "url": "https://churchdem.netlify.app",
+  "description": "St. Columba Parish, Toronto. A welcoming Catholic parish in the Archdiocese of Toronto: Mass times, sacraments, ministries, events and ways to get involved.",
+  "phone": "416-555-0142",
+  "email": "office@stcolumbatoronto.ca",
+  "address": {
+    "street": "1240 Columba Avenue",
+    "city": "Toronto",
+    "region": "ON",
+    "postal": "M4K 2R6",
+    "full": "1240 Columba Avenue, Toronto, ON M4K 2R6"
+  },
+  "geo": {
+    "lat": 43.6853,
+    "lng": -79.3521
+  },
+  "map_url": "https://maps.google.com/?q=1240+Columba+Avenue+Toronto",
+  "og_image": "/wp-content/uploads/2026/09/hero-church-interior.jpg",
+  "facebook": "https://www.facebook.com/",
+  "instagram": "https://www.instagram.com/",
+  "youtube": "https://www.youtube.com/",
+  "nav_cta": {
+    "label": "Give",
+    "href": "/give/"
+  },
+  "nav": [
+    {
+      "label": "Our Parish",
+      "href": "/about/",
+      "children": [
+        {
+          "label": "Who We Are",
+          "href": "/about/"
+        },
+        {
+          "label": "New Here?",
+          "href": "/new-here/"
+        },
+        {
+          "label": "Clergy & Staff",
+          "href": "/clergy-and-staff/"
+        },
+        {
+          "label": "Parish History",
+          "href": "/history/"
+        },
+        {
+          "label": "Parish Councils",
+          "href": "/parish-councils/"
+        },
+        {
+          "label": "Photo Gallery",
+          "href": "/gallery/"
+        },
+        {
+          "label": "Questions & Answers",
+          "href": "/questions/"
+        },
+        {
+          "label": "Our Faith",
+          "href": "/our-faith/",
+          "children": [
+            {
+              "label": "Becoming Catholic (OCIA)",
+              "href": "/becoming-catholic/"
+            },
+            {
+              "label": "Beliefs & Teachings",
+              "href": "/beliefs-and-teachings/"
+            },
+            {
+              "label": "Prayers",
+              "href": "/prayers/"
+            },
+            {
+              "label": "Pastoral Plan",
+              "href": "/pastoral-plan/"
+            },
+            {
+              "label": "Daily Readings",
+              "href": "https://readings.livingwithchrist.ca/"
+            }
+          ]
+        },
+        {
+          "label": "Archdiocese of Toronto",
+          "href": "/archdiocese-of-toronto/",
+          "children": [
+            {
+              "label": "Archdiocese Website",
+              "href": "https://www.archtoronto.org/"
+            },
+            {
+              "label": "Chaplaincies",
+              "href": "/chaplaincies/"
+            },
+            {
+              "label": "Refugee Sponsorship (ORAT)",
+              "href": "/refugee-sponsorship/"
+            },
+            {
+              "label": "Vocations",
+              "href": "/vocations/"
+            },
+            {
+              "label": "Catholic Cemeteries",
+              "href": "https://www.catholic-cemeteries.ca/"
+            }
+          ]
+        },
+        {
+          "label": "Safe Environment",
+          "href": "/safe-environment/"
+        },
+        {
+          "label": "Volunteer Screening",
+          "href": "/volunteer-screening/"
+        },
+        {
+          "label": "Accessibility",
+          "href": "/accessibility/"
+        },
+        {
+          "label": "Report Misconduct",
+          "href": "/report-misconduct/"
+        }
+      ]
+    },
+    {
+      "label": "Mass & Prayer",
+      "href": "/mass-times/",
+      "children": [
+        {
+          "label": "Mass Times",
+          "href": "/mass-times/"
+        },
+        {
+          "label": "Watch Mass Online",
+          "href": "/livestream/"
+        },
+        {
+          "label": "Confession Times",
+          "href": "/reconciliation/"
+        },
+        {
+          "label": "Eucharistic Adoration",
+          "href": "/adoration/"
+        },
+        {
+          "label": "Devotions & Prayer Groups",
+          "href": "/devotions/"
+        },
+        {
+          "label": "Mass Intentions",
+          "href": "/mass-intentions/"
+        },
+        {
+          "label": "Prayer Requests",
+          "href": "/prayer-requests/"
+        },
+        {
+          "label": "Music Ministry",
+          "href": "/music-ministry/"
+        }
+      ]
+    },
+    {
+      "label": "Sacraments",
+      "href": "/sacraments/",
+      "children": [
+        {
+          "label": "All Sacraments",
+          "href": "/sacraments/"
+        },
+        {
+          "label": "Baptism",
+          "href": "/baptism/"
+        },
+        {
+          "label": "First Reconciliation & Communion",
+          "href": "/first-communion/"
+        },
+        {
+          "label": "Confirmation",
+          "href": "/confirmation/"
+        },
+        {
+          "label": "Marriage",
+          "href": "/marriage/"
+        },
+        {
+          "label": "Holy Orders",
+          "href": "/holy-orders/"
+        },
+        {
+          "label": "Reconciliation (Confession)",
+          "href": "/reconciliation/"
+        },
+        {
+          "label": "Anointing of the Sick",
+          "href": "/anointing-of-the-sick/"
+        },
+        {
+          "label": "Funerals & Bereavement",
+          "href": "/funerals/"
+        },
+        {
+          "label": "Sacramental Preparation",
+          "href": "/sacramental-preparation/"
+        },
+        {
+          "label": "Becoming Catholic (OCIA)",
+          "href": "/becoming-catholic/"
+        },
+        {
+          "label": "Papal Blessings & Certificates",
+          "href": "/papal-blessings/"
+        }
+      ]
+    },
+    {
+      "label": "Ministries",
+      "href": "/ministries/",
+      "children": [
+        {
+          "label": "All Ministries & Groups",
+          "href": "/ministries/"
+        },
+        {
+          "label": "Youth Ministry",
+          "href": "/youth-ministry/"
+        },
+        {
+          "label": "Young Adults",
+          "href": "/young-adults/"
+        },
+        {
+          "label": "Children & Families",
+          "href": "/children-and-families/"
+        },
+        {
+          "label": "Knights of Columbus",
+          "href": "/knights-of-columbus/"
+        },
+        {
+          "label": "Catholic Women's League",
+          "href": "/catholic-womens-league/"
+        },
+        {
+          "label": "St. Vincent de Paul",
+          "href": "/st-vincent-de-paul/"
+        },
+        {
+          "label": "Liturgical Ministries",
+          "href": "/liturgical-ministries/"
+        },
+        {
+          "label": "Faith Formation & Bible Study",
+          "href": "/faith-formation/"
+        },
+        {
+          "label": "Cultural Communities",
+          "href": "/cultural-communities/"
+        },
+        {
+          "label": "Outreach & Social Justice",
+          "href": "/outreach/"
+        },
+        {
+          "label": "Seniors",
+          "href": "/seniors/"
+        },
+        {
+          "label": "Volunteer",
+          "href": "/volunteer/"
+        }
+      ]
+    },
+    {
+      "label": "Events & News",
+      "href": "/events/",
+      "children": [
+        {
+          "label": "Events & Calendar",
+          "href": "/events/"
+        },
+        {
+          "label": "Parish News",
+          "href": "/news/"
+        },
+        {
+          "label": "Weekly Bulletin",
+          "href": "/bulletin/"
+        },
+        {
+          "label": "Parish School",
+          "href": "/parish-school/"
+        }
+      ]
+    },
+    {
+      "label": "Contact",
+      "href": "/contact/",
+      "children": [
+        {
+          "label": "Contact & Office Hours",
+          "href": "/contact/"
+        },
+        {
+          "label": "Register with the Parish",
+          "href": "/register/"
+        },
+        {
+          "label": "Give / Donate",
+          "href": "/give/"
+        },
+        {
+          "label": "Hall Rentals",
+          "href": "/hall-rentals/"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "heading": "Mass times",
+        "links": [
+          {
+            "label": "Saturday 5:00 PM (Vigil)",
+            "href": "/mass-times/"
+          },
+          {
+            "label": "Sunday 9:00 · 11:00 AM · 5:00 PM",
+            "href": "/mass-times/"
+          },
+          {
+            "label": "Weekdays 8:30 AM",
+            "href": "/mass-times/"
+          },
+          {
+            "label": "Confessions Sat 3:30–4:30 PM",
+            "href": "/reconciliation/"
+          },
+          {
+            "label": "Full schedule",
+            "href": "/mass-times/"
+          }
+        ]
+      },
+      {
+        "heading": "Quick links",
+        "links": [
+          {
+            "label": "New here?",
+            "href": "/new-here/"
+          },
+          {
+            "label": "Sacraments",
+            "href": "/sacraments/"
+          },
+          {
+            "label": "Ministries",
+            "href": "/ministries/"
+          },
+          {
+            "label": "Events & calendar",
+            "href": "/events/"
+          },
+          {
+            "label": "Weekly bulletin",
+            "href": "/bulletin/"
+          },
+          {
+            "label": "Give online",
+            "href": "/give/"
+          },
+          {
+            "label": "Register with the parish",
+            "href": "/register/"
+          }
+        ]
+      },
+      {
+        "heading": "Stay connected",
+        "links": [
+          {
+            "label": "Watch Mass online",
+            "href": "/livestream/"
+          },
+          {
+            "label": "Sign up for parish emails",
+            "href": "/contact/#newsletter"
+          },
+          {
+            "label": "Prayer requests",
+            "href": "/prayer-requests/"
+          },
+          {
+            "label": "Safe Environment",
+            "href": "/safe-environment/"
+          },
+          {
+            "label": "Archdiocese of Toronto",
+            "href": "https://www.archtoronto.org/"
+          },
+          {
+            "label": "ShareLife",
+            "href": "https://sharelife.org/"
+          }
+        ]
+      }
+    ]
+  },
+  "office_hours": "Mon–Fri 9:00 AM – 4:00 PM (closed 12–1)",
+  "office_hours_schema": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "16:00"
+    }
+  ],
+  "demo_today": "2026-09-18",
+  "map_embed": "https://www.google.com/maps?q=East+York,+Toronto,+ON&z=13&output=embed"
+}

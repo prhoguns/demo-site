@@ -1,9 +1,19 @@
-# Netlify config — static site, no build step.
+# Static site — the repo root is published as-is, no build step.
 [build]
   publish = "."
 
-# Serve a friendly 404 if you add a 404.html later.
-# [[redirects]]
-#   from = "/*"
-#   to = "/404.html"
-#   status = 404
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/wp-content/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

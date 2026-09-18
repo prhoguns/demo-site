@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Site Guide for Parish Staff | St. Columba Parish</title>
+<meta name="description" content="A plain-language guide for parish staff — how the site is built, how it is hosted on WordPress.com, and how to update Mass times, events, bulletins and pages.">
+<meta name="theme-color" content="#1c2b4b">
+<link rel="canonical" href="https://churchdem.netlify.app/site-guide/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="St. Columba Parish">
+<meta property="og:title" content="Site Guide for Parish Staff | St. Columba Parish">
+<meta property="og:description" content="A plain-language guide for parish staff — how the site is built, how it is hosted on WordPress.com, and how to update Mass times, events, bulletins and pages.">
+<meta property="og:url" content="https://churchdem.netlify.app/site-guide/">
+<meta property="og:image" content="https://churchdem.netlify.app/wp-content/uploads/2026/09/hero-church-interior.jpg">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css?v=84445f04">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://churchdem.netlify.app/"}, {"@type": "ListItem", "position": 2, "name": "Site Guide for Parish Staff", "item": "https://churchdem.netlify.app/site-guide/"}]}]}</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ===== UTILITY BAR  (WordPress: small Group row inside the header template part) ===== -->
+<div class="utility-bar">
+  <div class="wrap utility-bar__inner">
+    <p class="utility-bar__hours">Office: Mon–Fri 9:00 AM – 4:00 PM (closed 12–1)</p>
+    <ul class="utility-bar__links">
+      <li><a href="tel:416-555-0142">416-555-0142</a></li>
+      <li><a href="mailto:office@stcolumbatoronto.ca">office@stcolumbatoronto.ca</a></li>
+      <li><a href="/livestream/">Watch Mass online</a></li>
+      <li><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a></li>
+      <li><a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21 8.2c-.1-1.5-.4-2.8-1.5-3.9S17.3 2.9 15.8 2.8C14.3 2.7 9.7 2.7 8.2 2.8 6.7 2.9 5.4 3.2 4.3 4.3S2.9 6.7 2.8 8.2c-.1 1.5-.1 6.1 0 7.6.1 1.5.4 2.8 1.5 3.9s2.4 1.4 3.9 1.5c1.5.1 6.1.1 7.6 0 1.5-.1 2.8-.4 3.9-1.5s1.4-2.4 1.5-3.9c.1-1.5.1-6.1 0-7.6zm-2 9.3a3 3 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4a3 3 0 0 1-1.7-1.7c-.5-1.2-.4-4-.4-5.3s-.1-4.1.4-5.3A3 3 0 0 1 6.7 5c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4A3 3 0 0 1 19 6.7c.5 1.2.4 4 .4 5.3s.1 4.1-.4 5.5z"/></svg></a></li>
+      <li><a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C16.5 3.7 12 3.7 12 3.7s-4.5 0-7.8.2c-.5.1-1.5.1-2.3 1C1.2 5.6 1 7.2 1 7.2S.8 9.1.8 11v1.8c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.9.9 2 .9 2.5 1 1.8.2 7.6.2 7.6.2s4.5 0 7.8-.2c.5-.1 1.5-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V11c0-1.9-.2-3.8-.2-3.8zM9.7 14.9V8.3l6.1 3.3-6.1 3.3z"/></svg></a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ===== HEADER  (WordPress: header template part, sticky) ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap site-header__inner">
+    <p class="site-title"><a href="/"><img src="/assets/icon.svg" alt="" class="site-title__mark" width="36" height="36">St. Columba Parish<span>Toronto, Ontario</span></a></p>
+    <div class="header-tools">
+    <button class="search-toggle" id="searchToggle" aria-expanded="false" aria-controls="siteSearch" aria-label="Search the site">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.2-4.2" stroke-linecap="round"/></svg>
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke-linecap="round"/></svg>
+    </button>
+    </div>
+    <nav class="nav" id="primaryNav" aria-label="Primary">
+<ul>
+<li class="has-sub"><a href="/about/">Our Parish<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a>
+<button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Our Parish menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button>
+<ul><li><a href="/about/">Who We Are</a></li><li><a href="/new-here/">New Here?</a></li><li><a href="/clergy-and-staff/">Clergy &amp; Staff</a></li><li><a href="/history/">Parish History</a></li><li><a href="/parish-councils/">Parish Councils</a></li><li><a href="/gallery/">Photo Gallery</a></li><li><a href="/questions/">Questions &amp; Answers</a></li><li class="has-sub"><a href="/our-faith/">Our Faith<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a><button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Our Faith menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button><ul><li><a href="/becoming-catholic/">Becoming Catholic (OCIA)</a></li><li><a href="/beliefs-and-teachings/">Beliefs &amp; Teachings</a></li><li><a href="/prayers/">Prayers</a></li><li><a href="/pastoral-plan/">Pastoral Plan</a></li><li><a href="https://readings.livingwithchrist.ca/" target="_blank" rel="noopener">Daily Readings</a></li></ul></li><li class="has-sub"><a href="/archdiocese-of-toronto/">Archdiocese of Toronto<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a><button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Archdiocese of Toronto menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button><ul><li><a href="https://www.archtoronto.org/" target="_blank" rel="noopener">Archdiocese Website</a></li><li><a href="/chaplaincies/">Chaplaincies</a></li><li><a href="/refugee-sponsorship/">Refugee Sponsorship (ORAT)</a></li><li><a href="/vocations/">Vocations</a></li><li><a href="https://www.catholic-cemeteries.ca/" target="_blank" rel="noopener">Catholic Cemeteries</a></li></ul></li><li><a href="/safe-environment/">Safe Environment</a></li><li><a href="/volunteer-screening/">Volunteer Screening</a></li><li><a href="/accessibility/">Accessibility</a></li><li><a href="/report-misconduct/">Report Misconduct</a></li></ul>
+</li>
+<li class="has-sub"><a href="/mass-times/">Mass &amp; Prayer<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a>
+<button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Mass &amp; Prayer menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button>
+<ul><li><a href="/mass-times/">Mass Times</a></li><li><a href="/livestream/">Watch Mass Online</a></li><li><a href="/reconciliation/">Confession Times</a></li><li><a href="/adoration/">Eucharistic Adoration</a></li><li><a href="/devotions/">Devotions &amp; Prayer Groups</a></li><li><a href="/mass-intentions/">Mass Intentions</a></li><li><a href="/prayer-requests/">Prayer Requests</a></li><li><a href="/music-ministry/">Music Ministry</a></li></ul>
+</li>
+<li class="has-sub"><a href="/sacraments/">Sacraments<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a>
+<button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Sacraments menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button>
+<ul><li><a href="/sacraments/">All Sacraments</a></li><li><a href="/baptism/">Baptism</a></li><li><a href="/first-communion/">First Reconciliation &amp; Communion</a></li><li><a href="/confirmation/">Confirmation</a></li><li><a href="/marriage/">Marriage</a></li><li><a href="/holy-orders/">Holy Orders</a></li><li><a href="/reconciliation/">Reconciliation (Confession)</a></li><li><a href="/anointing-of-the-sick/">Anointing of the Sick</a></li><li><a href="/funerals/">Funerals &amp; Bereavement</a></li><li><a href="/sacramental-preparation/">Sacramental Preparation</a></li><li><a href="/becoming-catholic/">Becoming Catholic (OCIA)</a></li><li><a href="/papal-blessings/">Papal Blessings &amp; Certificates</a></li></ul>
+</li>
+<li class="has-sub"><a href="/ministries/">Ministries<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a>
+<button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Ministries menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button>
+<ul><li><a href="/ministries/">All Ministries &amp; Groups</a></li><li><a href="/youth-ministry/">Youth Ministry</a></li><li><a href="/young-adults/">Young Adults</a></li><li><a href="/children-and-families/">Children &amp; Families</a></li><li><a href="/knights-of-columbus/">Knights of Columbus</a></li><li><a href="/catholic-womens-league/">Catholic Women&#x27;s League</a></li><li><a href="/st-vincent-de-paul/">St. Vincent de Paul</a></li><li><a href="/liturgical-ministries/">Liturgical Ministries</a></li><li><a href="/faith-formation/">Faith Formation &amp; Bible Study</a></li><li><a href="/cultural-communities/">Cultural Communities</a></li><li><a href="/outreach/">Outreach &amp; Social Justice</a></li><li><a href="/seniors/">Seniors</a></li><li><a href="/volunteer/">Volunteer</a></li></ul>
+</li>
+<li class="has-sub"><a href="/events/">Events &amp; News<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a>
+<button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Events &amp; News menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button>
+<ul><li><a href="/events/">Events &amp; Calendar</a></li><li><a href="/news/">Parish News</a></li><li><a href="/bulletin/">Weekly Bulletin</a></li><li><a href="/parish-school/">Parish School</a></li></ul>
+</li>
+<li class="has-sub"><a href="/contact/">Contact<svg class="caret" viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></a>
+<button class="nav-sub-toggle" type="button" aria-expanded="false" aria-label="Open Contact menu"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M1.5 4L6 8l4.5-4"/></svg></button>
+<ul><li><a href="/contact/">Contact &amp; Office Hours</a></li><li><a href="/register/">Register with the Parish</a></li><li><a href="/give/">Give / Donate</a></li><li><a href="/hall-rentals/">Hall Rentals</a></li></ul>
+</li>
+<li class="nav__cta"><a href="/give/">Give</a></li>
+</ul>
+    </nav>
+  </div>
+  <!-- site search (static: JSON index; WordPress: Search block) -->
+  <div class="search" id="siteSearch" hidden>
+    <div class="wrap">
+      <form class="search__form" role="search" action="/search/" method="get">
+        <label class="search__label" for="searchInput">Search the site</label>
+        <input class="search__input" id="searchInput" type="search" name="q" placeholder="Try “baptism”, “mass times”, “youth”…" autocomplete="off">
+        <button type="button" class="search__close" id="searchClose" aria-label="Close search">&times;</button>
+      </form>
+      <ul class="search__results" id="searchResults" aria-live="polite"></ul>
+    </div>
+  </div>
+</header>
+
+<!-- ===== PAGE HERO  (WordPress: Cover / Group block at top of the page) ===== -->
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow"><a href="/site-guide/">About this site</a><span class="sep" aria-hidden="true">/</span>Site Guide for Parish Staff</p>
+    <h1>Site Guide for Parish Staff</h1>
+    <p class="page-hero__lede">How this website is built, how it moves onto WordPress.com, and how the parish office keeps it up to date without a web developer.</p>
+  </div>
+</section>
+
+<main id="main" class="page-body">
+  <div class="wrap">
+    <nav class="section-nav" aria-label="In this section"><p class="section-nav__title">In this section</p><ul><li><a href="/site-guide/" aria-current="page">Site Guide for Parish Staff</a></li><li><a href="/style-guide/">Design Components</a></li><li><a href="/credits/">Photo Credits</a></li></ul></nav>
+    <div class="entry-content">
+<div class="wp-block-group infobox">
+  <h3 class="wp-block-heading">Who this page is for</h3>
+  <p class="wp-block-paragraph">The pastor, the parish secretary and whoever looks after the bulletin. No technical background is assumed. Everything described here can be done from a normal web browser.</p>
+</div>
+
+<h2 class="wp-block-heading">1. What you are looking at</h2>
+<p class="wp-block-paragraph">This demonstration site shows the complete website a parish receives: more than sixty pages covering Mass times, every sacrament, thirty ministries, an events calendar, weekly bulletins, giving, safe environment policies and a contact office. The photographs are free stock images (see the <a href="/credits/">credits</a>); they are swapped for the parish's own photos before launch. The parish name, address, staff and schedule are placeholders that are replaced with yours.</p>
+<p class="wp-block-paragraph">Every page is written with the same building blocks WordPress uses — paragraphs, headings, images, buttons, columns and cards — so nothing has to be rebuilt when the site moves to WordPress. What you see here is what you will get.</p>
+
+<div class="wp-block-group is-layout-grid stats alignwide">
+  <div class="wp-block-group stat"><strong>65+</strong><span>pages of finished content</span></div>
+  <div class="wp-block-group stat"><strong>30</strong><span>ministry pages &amp; directory</span></div>
+  <div class="wp-block-group stat"><strong>1</strong><span>calendar the office controls</span></div>
+  <div class="wp-block-group stat"><strong>C$48</strong><span>per year hosting (WordPress.com Personal)</span></div>
+</div>
+
+<h2 class="wp-block-heading">2. Where the site lives</h2>
+<p class="wp-block-paragraph">The parish site is hosted on <strong>WordPress.com</strong> on the <strong>Personal plan</strong> — about C$4 a month, billed yearly, in the parish's own name. WordPress.com handles security updates, backups and hosting; there is no server for anyone to maintain. Since April 2026 the Personal plan includes everything this design needs:</p>
+<ul class="wp-block-list">
+  <li>A custom domain (for example <em>stcolumbatoronto.ca</em>), free for the first year, with no advertising on the site.</li>
+  <li>Global Styles, custom fonts and custom CSS — so the colours, typefaces and layouts you see here are reproduced exactly.</li>
+  <li>The Form block (contact, registration, prayer requests), the YouTube block (livestream) and the Google Calendar block (events).</li>
+  <li>6 GB of storage — enough for years of bulletins and photos.</li>
+  <li>Access to WordPress plugins should the parish ever want more, though this site needs none.</li>
+</ul>
+<p class="wp-block-paragraph has-small-font-size">Plan details are published at wordpress.com/pricing and change from time to time; we confirm them with you before the parish signs up.</p>
+
+<h2 class="wp-block-heading">3. Moving the site onto WordPress.com</h2>
+<p class="wp-block-paragraph">This is done once, by us, usually within a week of the parish's go-ahead. You do not need to do anything except approve the content and provide photos.</p>
+<ol class="wp-block-list steps">
+  <li><h3 class="wp-block-heading">Create the WordPress.com site and domain</h3><p>Registered to the parish's own email address so the parish, not the developer, owns it.</p></li>
+  <li><h3 class="wp-block-heading">Apply the design</h3><p>A standard block theme is installed and its Styles set to the parish palette and fonts; the small custom stylesheet is added under Additional CSS. The header (menu, search, Give button) and footer are built as template parts, so they appear on every page automatically.</p></li>
+  <li><h3 class="wp-block-heading">Import the pages and photos</h3><p>All pages are imported in one step from an export file generated from this demo, with the photos uploaded to the Media Library. Links between pages keep working.</p></li>
+  <li><h3 class="wp-block-heading">Connect the live pieces</h3><p>The parish's YouTube channel is linked to the livestream page, a parish Google Calendar is connected to the events page, and forms are pointed at the office email address.</p></li>
+  <li><h3 class="wp-block-heading">Review and launch</h3><p>The pastor and secretary read every page, we make corrections, and the domain goes live. We then walk the office through the edits below in a one-hour session.</p></li>
+</ol>
+
+<h2 class="wp-block-heading">4. Everyday updates the office makes itself</h2>
+<p class="wp-block-paragraph">Sign in at <em>yourdomain.ca/wp-admin</em>. Each task below takes a few minutes.</p>
+
+<details class="wp-block-details">
+  <summary>Change Mass or confession times</summary>
+  <p class="wp-block-paragraph">Pages → <strong>Mass Times</strong> → Edit. Click the time you want to change, type the new one, and press <strong>Update</strong>. The home page and footer show the same times; update them in the same way (Appearance → Editor → Footer for the footer). We keep the list of every place a time appears in the parish's handover notes.</p>
+</details>
+<details class="wp-block-details">
+  <summary>Add or change an event</summary>
+  <p class="wp-block-paragraph">Open the parish <strong>Google Calendar</strong> (the office already uses it) and add the event with its time, location and a two-sentence description. The calendar on the Events page updates on its own. For a headline event you also want featured on the home page, edit the <strong>Home</strong> page and change the text in one of the three event cards.</p>
+</details>
+<details class="wp-block-details">
+  <summary>Post this week's bulletin</summary>
+  <p class="wp-block-paragraph">Pages → <strong>Weekly Bulletin</strong> → Edit. Click the top entry in the list, duplicate it, change the date and title, then click the PDF button and choose <strong>Replace</strong> to upload the new PDF from your computer. Press Update. The previous bulletins stay in the archive below.</p>
+</details>
+<details class="wp-block-details">
+  <summary>Add a news item</summary>
+  <p class="wp-block-paragraph">Pages → <strong>Parish News</strong> → Edit. Copy the top story block (three dots → Duplicate), change the date, headline, text and photo. To put it on the home page, edit Home and change the first entry in "Parish news".</p>
+</details>
+<details class="wp-block-details">
+  <summary>Update staff, clergy or ministry contacts</summary>
+  <p class="wp-block-paragraph">Each person is a card on <strong>Clergy &amp; Staff</strong>; each ministry has its own page with a contact line near the top. Click the text and retype it. To change a photo, click the image → Replace.</p>
+</details>
+<details class="wp-block-details">
+  <summary>Read form submissions</summary>
+  <p class="wp-block-paragraph">Every contact, registration, prayer request, Mass intention and volunteer form also sends an email to the office address. The full list is under <strong>Feedback</strong> in the dashboard, where entries can be searched and exported.</p>
+</details>
+<details class="wp-block-details">
+  <summary>Add a completely new page</summary>
+  <p class="wp-block-paragraph">Pages → Add New. Use the <strong>Patterns</strong> panel to insert a ready-made layout (card grid, FAQ, people cards, steps) that matches the rest of the site, then add it to the menu under Appearance → Editor → Navigation.</p>
+</details>
+
+<h2 class="wp-block-heading">5. Things that stay consistent</h2>
+<div class="wp-block-columns">
+  <div class="wp-block-column">
+    <h3 class="wp-block-heading">The office looks after</h3>
+    <ul class="wp-block-list"><li>Mass times, office hours, holiday notices</li><li>Events in Google Calendar</li><li>Weekly bulletin PDFs</li><li>News, photos, ministry contacts</li><li>Replying to form submissions</li></ul>
+  </div>
+  <div class="wp-block-column">
+    <h3 class="wp-block-heading">We look after (support plan)</h3>
+    <ul class="wp-block-list"><li>Design, menus, header and footer</li><li>Domain and hosting renewals</li><li>Accessibility and mobile checks</li><li>New sections or larger changes</li><li>A yearly review with the pastor</li></ul>
+  </div>
+</div>
+
+<h2 class="wp-block-heading">6. Standards this site meets</h2>
+<ul class="wp-block-list">
+  <li><strong>Mobile, tablet and desktop</strong> — every page is tested at phone, tablet and laptop widths; the menu becomes a full-screen list on phones and the calendar becomes a list.</li>
+  <li><strong>Accessibility</strong> — skip link, keyboard-operable menus, labelled forms, visible focus, alt text on images, colour contrast checked; see the <a href="/accessibility/">accessibility statement</a>.</li>
+  <li><strong>Search engines</strong> — titles and descriptions on every page, structured data for the church and events, a sitemap, and fast-loading resized images.</li>
+  <li><strong>Archdiocese of Toronto</strong> — Safe Environment, volunteer screening, misconduct reporting, accessibility and privacy pages are included and linked from every footer.</li>
+  <li><strong>Privacy</strong> — forms collect only what the office needs; no advertising trackers.</li>
+</ul>
+
+<div class="wp-block-buttons">
+  <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/style-guide/">See every design component</a></div>
+  <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="/credits/">Photo credits</a></div>
+</div>
+    </div>
+  </div>
+</main>
+
+<!-- ===== FOOTER  (WordPress: footer template part) ===== -->
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__col site-footer__about">
+      <p class="site-footer__brand">St. Columba Parish</p>
+      <p class="site-footer__tagline">A Catholic community in the heart of Toronto</p>
+      <address>
+        <a href="https://maps.google.com/?q=1240+Columba+Avenue+Toronto" target="_blank" rel="noopener">1240 Columba Avenue, Toronto, ON M4K 2R6</a><br>
+        <a href="tel:416-555-0142">416-555-0142</a><br>
+        <a href="mailto:office@stcolumbatoronto.ca">office@stcolumbatoronto.ca</a>
+      </address>
+      <ul class="social" aria-label="Social media">
+        <li><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a></li>
+        <li><a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 7.3a4.7 4.7 0 1 0 0 9.4 4.7 4.7 0 0 0 0-9.4zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm6-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM21 8.2c-.1-1.5-.4-2.8-1.5-3.9S17.3 2.9 15.8 2.8C14.3 2.7 9.7 2.7 8.2 2.8 6.7 2.9 5.4 3.2 4.3 4.3S2.9 6.7 2.8 8.2c-.1 1.5-.1 6.1 0 7.6.1 1.5.4 2.8 1.5 3.9s2.4 1.4 3.9 1.5c1.5.1 6.1.1 7.6 0 1.5-.1 2.8-.4 3.9-1.5s1.4-2.4 1.5-3.9c.1-1.5.1-6.1 0-7.6zm-2 9.3a3 3 0 0 1-1.7 1.7c-1.2.5-4 .4-5.3.4s-4.1.1-5.3-.4a3 3 0 0 1-1.7-1.7c-.5-1.2-.4-4-.4-5.3s-.1-4.1.4-5.3A3 3 0 0 1 6.7 5c1.2-.5 4-.4 5.3-.4s4.1-.1 5.3.4A3 3 0 0 1 19 6.7c.5 1.2.4 4 .4 5.3s.1 4.1-.4 5.5z"/></svg></a></li>
+        <li><a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2s-.2-1.6-.9-2.3c-.9-.9-1.9-.9-2.3-1C16.5 3.7 12 3.7 12 3.7s-4.5 0-7.8.2c-.5.1-1.5.1-2.3 1C1.2 5.6 1 7.2 1 7.2S.8 9.1.8 11v1.8c0 1.9.2 3.8.2 3.8s.2 1.6.9 2.3c.9.9 2 .9 2.5 1 1.8.2 7.6.2 7.6.2s4.5 0 7.8-.2c.5-.1 1.5-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.8V11c0-1.9-.2-3.8-.2-3.8zM9.7 14.9V8.3l6.1 3.3-6.1 3.3z"/></svg></a></li>
+      </ul>
+    </div>
+<div class="site-footer__col"><h2 class="site-footer__heading">Mass times</h2><ul><li><a href="/mass-times/">Saturday 5:00 PM (Vigil)</a></li><li><a href="/mass-times/">Sunday 9:00 · 11:00 AM · 5:00 PM</a></li><li><a href="/mass-times/">Weekdays 8:30 AM</a></li><li><a href="/reconciliation/">Confessions Sat 3:30–4:30 PM</a></li><li><a href="/mass-times/">Full schedule</a></li></ul></div>
+<div class="site-footer__col"><h2 class="site-footer__heading">Quick links</h2><ul><li><a href="/new-here/">New here?</a></li><li><a href="/sacraments/">Sacraments</a></li><li><a href="/ministries/">Ministries</a></li><li><a href="/events/">Events &amp; calendar</a></li><li><a href="/bulletin/">Weekly bulletin</a></li><li><a href="/give/">Give online</a></li><li><a href="/register/">Register with the parish</a></li></ul></div>
+<div class="site-footer__col"><h2 class="site-footer__heading">Stay connected</h2><ul><li><a href="/livestream/">Watch Mass online</a></li><li><a href="/contact/#newsletter">Sign up for parish emails</a></li><li><a href="/prayer-requests/">Prayer requests</a></li><li><a href="/safe-environment/">Safe Environment</a></li><li><a href="https://www.archtoronto.org/" target="_blank" rel="noopener">Archdiocese of Toronto</a></li><li><a href="https://sharelife.org/" target="_blank" rel="noopener">ShareLife</a></li></ul></div>
+  </div>
+  <div class="wrap site-footer__bottom">
+    <p>&copy; <span id="yr">2026</span> St. Columba Parish. A parish of the <a href="https://www.archtoronto.org/" target="_blank" rel="noopener">Archdiocese of Toronto</a>.</p>
+    <p><a href="/privacy/">Privacy</a> · <a href="/accessibility/">Accessibility</a> · <a href="/credits/">Photo credits</a> · <a href="/site-guide/">Site guide</a></p>
+  </div>
+</footer>
+
+<script src="/assets/site.js?v=40b7a1ff"></script>
+</body>
+</html>
