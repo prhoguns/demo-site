@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo Site</title>
+  <meta name="description" content="A personal site built with plain HTML, CSS and JavaScript.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">Demo Site</a>
+    <nav class="nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Your Name</h1>
+      <p class="lead">I build things for the web. This is my corner of the internet where I share what I'm working on.</p>
+      <div class="actions">
+        <a href="projects.html" class="btn btn-primary">See my work</a>
+        <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <section class="cards">
+      <article class="card">
+        <h2>Design</h2>
+        <p>Clean, accessible interfaces that work on every screen size.</p>
+      </article>
+      <article class="card">
+        <h2>Develop</h2>
+        <p>Fast static sites with no framework overhead, deployed in seconds.</p>
+      </article>
+      <article class="card">
+        <h2>Deploy</h2>
+        <p>Hosted on Netlify with automatic deploys on every push to GitHub.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name. Built with plain HTML &amp; CSS.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+# Netlify config — static site, no build step.
+[build]
+  publish = "."
+
+# Serve a friendly 404 if you add a 404.html later.
+# [[redirects]]
+#   from = "/*"
+#   to = "/404.html"
+#   status = 404

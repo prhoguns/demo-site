@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Demo Site</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="logo">Demo Site</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Contact</h1>
+    <p class="lead">Send a message — this form uses Netlify Forms, so submissions show up in your Netlify dashboard with no backend code.</p>
+    <!-- data-netlify="true" makes Netlify handle submissions automatically -->
+    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form">
+      <input type="hidden" name="form-name" value="contact">
+      <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+      <label>Name <input type="text" name="name" required></label>
+      <label>Email <input type="email" name="email" required></label>
+      <label>Message <textarea name="message" rows="5" required></textarea></label>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name.</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
