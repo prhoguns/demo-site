@@ -29,6 +29,10 @@ const { pathToFileURL } = require('node:url');
     ['Sacraments', 'Ministries', 'Weekly Bulletin', 'New Here?']);
   assert.equal(await page.locator('#ministries .media-row').count(), 3);
   assert.equal((await page.locator('#ministries .ministries-all').textContent()).trim(), 'All Ministries');
+  assert.equal((await page.locator('.quote-band blockquote p').textContent()).trim(),
+    '“Be at peace, and have unfeigned charity among yourselves.”');
+  assert.equal(await page.locator('.quote-band cite a').getAttribute('href'),
+    'https://celt.ucc.ie/published/L201040.html');
   const firstMinistryImage = page.locator('#ministries img').first();
   await firstMinistryImage.scrollIntoViewIfNeeded();
   await firstMinistryImage.evaluate(image => image.decode());

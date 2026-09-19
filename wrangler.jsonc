@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "demo-site",
+  "compatibility_date": "2026-09-18",
+  "assets": {
+    "directory": "./delivery/website",
+    "not_found_handling": "404-page"
+  }
+}

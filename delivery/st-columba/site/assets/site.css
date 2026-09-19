@@ -414,6 +414,7 @@ address{font-style:normal;}
 .quote-band{background:var(--navy);color:var(--ivory);text-align:center;padding:clamp(2.75rem,6vw,4.5rem) var(--gutter);}
 .quote-band blockquote{border:0;padding:0;margin:0 auto;max-width:52ch;font-family:var(--font-display);font-size:clamp(1.45rem,2.6vw,2.1rem);line-height:1.35;font-style:italic;color:#fff;}
 .quote-band cite{display:block;margin-top:1rem;font-style:normal;font-family:var(--font-text);font-size:.85rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft);}
+.quote-band cite a{color:inherit;}
 
 /* CTA banners */
 .cta-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--s50);margin:0 0 var(--s50);}
@@ -553,6 +554,11 @@ address{font-style:normal;}
 .home-calendar-links{justify-content:center;margin-top:var(--s50);}
 #ministries .media-row{margin-bottom:clamp(2.5rem,5vw,4.5rem);}
 #ministries .media-row__img img{aspect-ratio:3/2;}
+
+/* Keep every constrained top-level block on the same content axis. Several
+   component rules set vertical margins with shorthand, which otherwise resets
+   the automatic left and right margins from the entry-content layout. */
+.entry-content > :not(.alignfull):not(.alignleft):not(.alignright){margin-left:auto;margin-right:auto;}
 
 /* ============================================================
    FOOTER   (WP: footer template part)
