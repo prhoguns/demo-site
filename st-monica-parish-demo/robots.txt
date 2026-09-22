@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://st-monica-parish-demo.pages.dev/sitemap.xml

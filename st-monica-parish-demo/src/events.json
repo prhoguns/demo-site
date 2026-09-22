@@ -1,0 +1,38 @@
+[
+ {
+  "title": "Young Adults Gathering",
+  "date": "2026-10-07",
+  "start": "19:00",
+  "end": "20:30",
+  "category": "youth",
+  "location": "St. Monica's Parish",
+  "summary": "Young Adults meet on the first and third Wednesday of the month at 7 PM."
+ },
+ {
+  "title": "First Friday Adoration and Good Shepherd Collection",
+  "date": "2026-10-02",
+  "start": "19:00",
+  "end": "20:00",
+  "category": "devotion",
+  "location": "St. Monica's Parish",
+  "summary": "First Friday adoration with donations collected for Good Shepherd Ministries."
+ },
+ {
+  "title": "Coffee Social",
+  "date": "2026-09-27",
+  "start": "10:00",
+  "end": "12:30",
+  "category": "community",
+  "location": "St. Monica's Parish",
+  "summary": "Coffee socials after Sunday 9 AM and 11 AM Masses."
+ },
+ {
+  "title": "RCIA Session",
+  "date": "2026-09-22",
+  "start": "19:30",
+  "end": "20:30",
+  "category": "formation",
+  "location": "Rectory Basement",
+  "summary": "RCIA meets Tuesdays; contact the parish office after completing registration."
+ }
+]

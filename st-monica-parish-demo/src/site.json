@@ -1,0 +1,227 @@
+{
+  "name": "St. Monica's Parish",
+  "short_name": "St. Monica's",
+  "tagline": "Joyfully bringing Christ to the world",
+  "city": "Toronto, Ontario",
+  "url": "https://st-monica-parish-demo.pages.dev",
+  "description": "St. Monica's Parish, Toronto: Mass times, sacraments, announcements, ministries, parish history and contact information.",
+  "phone": "416.483.1513",
+  "email": "stmonicasto@archtoronto.org",
+  "address": {
+    "street": "44 Broadway Avenue",
+    "city": "Toronto",
+    "region": "ON",
+    "postal": "M4P 1T4",
+    "full": "44 Broadway Avenue, Toronto, ON M4P 1T4"
+  },
+  "geo": {
+    "lat": 43.7109,
+    "lng": -79.3951
+  },
+  "map_url": "https://maps.google.com/?q=44+Broadway+Avenue+Toronto+ON+M4P+1T4",
+  "og_image": "/wp-content/uploads/2026/09/church-front-21.jpg",
+  "facebook": "https://www.facebook.com/",
+  "instagram": "https://www.instagram.com/youngadultstmonica.to/",
+  "youtube": "https://www.youtube.com/",
+  "office_hours": "Mon-Fri 8:30 AM-4:30 PM, closed 1-2 PM",
+  "office_hours_schema": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:30",
+      "closes": "16:30"
+    }
+  ],
+  "demo_today": "2026-09-21",
+  "nav_cta": {
+    "label": "Give",
+    "href": "/give/"
+  },
+  "nav": [
+    {
+      "label": "Our Parish",
+      "href": "/about/",
+      "children": [
+        {
+          "label": "Welcome",
+          "href": "/about/"
+        },
+        {
+          "label": "Pastor's Welcome",
+          "href": "/pastors-welcome/"
+        },
+        {
+          "label": "History",
+          "href": "/history/"
+        },
+        {
+          "label": "Our Schools",
+          "href": "/parish-school/"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact/"
+        }
+      ]
+    },
+    {
+      "label": "Mass & Prayer",
+      "href": "/mass-times/",
+      "children": [
+        {
+          "label": "Church Schedule",
+          "href": "/mass-times/"
+        },
+        {
+          "label": "Confession",
+          "href": "/reconciliation/"
+        },
+        {
+          "label": "Adoration",
+          "href": "/adoration/"
+        },
+        {
+          "label": "Mass Intentions",
+          "href": "/mass-intentions/"
+        },
+        {
+          "label": "Prayers",
+          "href": "/prayers/"
+        }
+      ]
+    },
+    {
+      "label": "Sacraments",
+      "href": "/baptism/",
+      "children": [
+        {
+          "label": "Baptism",
+          "href": "/baptism/"
+        },
+        {
+          "label": "Reconciliation",
+          "href": "/reconciliation/"
+        },
+        {
+          "label": "Mass (Eucharist)",
+          "href": "/mass-eucharist/"
+        },
+        {
+          "label": "Confirmation",
+          "href": "/confirmation/"
+        },
+        {
+          "label": "Marriage",
+          "href": "/marriage/"
+        },
+        {
+          "label": "Anointing of the Sick",
+          "href": "/anointing-of-the-sick/"
+        }
+      ]
+    },
+    {
+      "label": "Parish Life",
+      "href": "/announcements/",
+      "children": [
+        {
+          "label": "Announcements",
+          "href": "/announcements/"
+        },
+        {
+          "label": "Bulletin",
+          "href": "/bulletin/"
+        },
+        {
+          "label": "Volunteer",
+          "href": "/volunteer/"
+        },
+        {
+          "label": "Liturgical Ministries",
+          "href": "/liturgical-ministries/"
+        },
+        {
+          "label": "Young Adults",
+          "href": "/young-adults/"
+        },
+        {
+          "label": "Events",
+          "href": "/events/"
+        },
+        {
+          "label": "News",
+          "href": "/news/"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "columns": [
+      {
+        "heading": "Visit",
+        "links": [
+          {
+            "label": "Directions",
+            "href": "https://maps.google.com/?q=44+Broadway+Avenue+Toronto+ON+M4P+1T4"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact/"
+          },
+          {
+            "label": "Office Forms",
+            "href": "/contact/"
+          }
+        ]
+      },
+      {
+        "heading": "Worship",
+        "links": [
+          {
+            "label": "Mass Times",
+            "href": "/mass-times/"
+          },
+          {
+            "label": "Confession",
+            "href": "/reconciliation/"
+          },
+          {
+            "label": "Adoration",
+            "href": "/adoration/"
+          },
+          {
+            "label": "Mass Intentions",
+            "href": "/mass-intentions/"
+          }
+        ]
+      },
+      {
+        "heading": "Parish Life",
+        "links": [
+          {
+            "label": "Announcements",
+            "href": "/announcements/"
+          },
+          {
+            "label": "Bulletin",
+            "href": "/bulletin/"
+          },
+          {
+            "label": "Volunteer",
+            "href": "/volunteer/"
+          },
+          {
+            "label": "Give",
+            "href": "/give/"
+          }
+        ]
+      }
+    ]
+  }
+}
