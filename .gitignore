@@ -3,3 +3,7 @@ Thumbs.db
 .netlify/
 node_modules/
 .claude/
+
+# Upload packages built by src/package.py
+delivery/*.zip
+st-monica-parish-demo/delivery/*.zip

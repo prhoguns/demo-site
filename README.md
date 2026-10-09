@@ -48,3 +48,5 @@ links. No YouTube API key or daily rebuild is required. Run the resolver tests w
 
 The site and style guides are internal source documents (`publish: false`), excluded
 from rendered pages, navigation, search, sitemap and WordPress export.
+
+The upload zips in `delivery/` are not committed. Run `python3 src/package.py` to build them.
